@@ -79,11 +79,11 @@
 
         layer_navi {
             bindings = <
- &trans              &trans              &trans              &trans              &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans              &trans              &trans              &trans              &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &macro_workspace_1  &macro_workspace_2  &macro_workspace_3  &macro_workspace_4  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans              &trans              &trans              &trans              &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans              &trans              &trans              &trans              &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans              &trans              &trans              &trans              &trans  &trans             &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans              &trans              &trans              &trans              &trans  &trans             &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &macro_workspace_1  &macro_workspace_2  &macro_workspace_3  &macro_workspace_4  &trans             &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans              &trans              &trans              &trans              &trans  &trans                             &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans              &trans              &trans              &trans              &trans                    &kp ESC  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 

@@ -1,3 +1,9 @@
+macro_workspace_1: macro_workspace_1{
+compatible = "zmk,behavior-macro";
+label = "macro_workspace_1";
+#binding-cells = <0>;
+bindings = <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>, <&kp A>, <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>;
+};
 macro_alt_tab: macro_alt_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_tab";

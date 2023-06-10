@@ -4,6 +4,24 @@ label = "macro_workspace_1";
 #binding-cells = <0>;
 bindings = <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>, <&kp A>, <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>;
 };
+macro_workspace_2: macro_workspace_2{
+compatible = "zmk,behavior-macro";
+label = "macro_workspace_2";
+#binding-cells = <0>;
+bindings = <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>, <&kp S>, <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>;
+};
+macro_workspace_3: macro_workspace_3{
+compatible = "zmk,behavior-macro";
+label = "macro_workspace_3";
+#binding-cells = <0>;
+bindings = <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>, <&kp D>, <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>;
+};
+macro_workspace_4: macro_workspace_4{
+compatible = "zmk,behavior-macro";
+label = "macro_workspace_4";
+#binding-cells = <0>;
+bindings = <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>, <&kp F>, <&kt LEFT_WIN>, <&kt LEFT_SHIFT>, <&kt RIGHT_CONTROL>;
+};
 macro_alt_tab: macro_alt_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_tab";

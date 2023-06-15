@@ -2,7 +2,7 @@ macro_swedish_1: macro_swedish_1{
 compatible = "zmk,behavior-macro";
 label = "macro_swedish_1";
 #binding-cells = <0>;
-bindings = <&kt LEFT_ALT>, <&kp N0>, <&kp N2>, <&kp N2>, <&kp N9>, <&kt LEFT_ALT>;
+bindings = <&kp RA(KP_N0)>, <&kp RA(KP_N2)>, <&kp RA(KP_N2)>, <&kp RA(KP_N9)>;
 };
 macro_workspace_1: macro_workspace_1{
 compatible = "zmk,behavior-macro";

@@ -39,7 +39,7 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2            &kp N3     &kp N4  &kp N5                     &tog 1                                                                            &mo 3  &kp N6   &kp N7             &kp N8           &kp N9    &kp N0  &kp MINUS
+ &kp EQUAL     &kp N1    &kp N2            &kp N3     &kp N4  &kp N5                     &tog 1                                                              &macro_a_with_a_ring  &kp N6   &kp N7             &kp N8           &kp N9    &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W             &kp E      &kp R   &kp T             &macro_alt_tab                                                                            &none   &kp Y    &kp U              &kp I            &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A     &kp S  &mt LEFT_SHIFT D    &lt 2 F   &kp G                      &none     &kp DELETE  &kp LALT                   &kp LGUI       &kp LGUI         &none   &kp H  &lt 4 J  &mt RIGHT_SHIFT K          &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X             &kp C      &kp V   &kp B                                            &kp HOME                  &kp PG_UP                                &kp N    &kp M          &kp COMMA          &kp DOT  &kp FSLH  &kp RSHFT
@@ -89,11 +89,11 @@
 
         layer_Symbols {
             bindings = <
- &trans                &trans                 &trans          &trans           &trans  &trans                     &trans                                                          &trans            &trans             &trans    &trans  &trans  &trans  &trans
- &trans      &kp EXCLAMATION                  &kp PIPE        &kp EQUAL        &trans  &trans                     &trans                                                          &trans            &trans             &trans  &kp BSPC  &trans  &trans  &trans
- &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                     &trans          &trans  &trans                  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans
- &trans                &trans                 &trans          &trans           &trans  &trans                                             &trans                  &trans                            &trans             &trans    &trans  &trans  &trans  &trans
- &trans                &trans                 &trans          &trans           &trans                    &kp EXCLAMATION  &kp UNDERSCORE  &trans                  &trans  &trans  &trans                               &trans    &trans  &trans  &trans  &trans
+ &trans                &trans                 &trans          &trans           &trans  &trans                     &trans                                                          &trans            &trans             &trans    &trans              &trans  &trans  &trans
+ &trans      &kp EXCLAMATION                  &kp PIPE        &kp EQUAL        &trans  &trans                     &trans                                                          &trans            &trans             &trans  &macro_smiley  &trans  &macro_a_with_a_ring  &trans
+ &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                     &trans          &trans  &trans                  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans              &macro_o_with_dots  &macro_a_with_dots  &trans
+ &trans                &trans                 &trans          &trans           &trans  &trans                                             &trans                  &trans                            &trans             &trans    &trans              &trans  &trans  &trans
+ &trans                &trans                 &trans          &trans           &trans                    &kp EXCLAMATION  &kp UNDERSCORE  &trans                  &trans  &trans  &trans                               &trans    &trans              &trans  &trans  &trans
             >;
         };
 

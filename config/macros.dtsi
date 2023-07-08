@@ -46,6 +46,75 @@ label = "macro_alt_tab";
 #binding-cells = <0>;
 bindings = <&kt LEFT_ALT>, <&kp TAB>, <&kt LEFT_ALT>;
 };
+macro_a_with_a_ring: macro_a_with_a_ring{
+wait-ms = <10>;
+tap-ms = <15>;
+compatible = "zmk,behavior-macro";
+label = "macro_a_with_a_ring";
+#binding-cells = <0>;
+bindings = <&kt LEFT_SHIFT>,
+            <&kt LEFT_CONTROL>,
+            <&kp U>,
+            <&kt LEFT_SHIFT>,
+            <&kt LEFT_CONTROL>,
+            <&kp N0>,
+            <&kp N0>,
+            <&kp E>,
+            <&kp N5>,
+            <&kp SPACE>;
+};
+macro_a_with_dots: macro_a_with_dots{
+wait-ms = <10>;
+tap-ms = <15>;
+compatible = "zmk,behavior-macro";
+label = "macro_a_with_dots";
+#binding-cells = <0>;
+bindings = <&kt LEFT_SHIFT>,
+            <&kt LEFT_CONTROL>,
+            <&kp U>,
+            <&kt LEFT_SHIFT>,
+            <&kt LEFT_CONTROL>,
+            <&kp N0>,
+            <&kp N0>,
+            <&kp E>,
+            <&kp N4>,
+            <&kp SPACE>;
+};
+macro_o_with_dots: macro_o_with_dots{
+wait-ms = <10>;
+tap-ms = <15>;
+compatible = "zmk,behavior-macro";
+label = "macro_o_with_dots";
+#binding-cells = <0>;
+bindings = <&kt LEFT_SHIFT>,
+            <&kt LEFT_CONTROL>,
+            <&kp U>,
+            <&kt LEFT_SHIFT>,
+            <&kt LEFT_CONTROL>,
+            <&kp N0>,
+            <&kp N0>,
+            <&kp F>,
+            <&kp N6>,
+            <&kp SPACE>;
+};
+macro_smiley: macro_smiley{
+wait-ms = <10>;
+tap-ms = <15>;
+compatible = "zmk,behavior-macro";
+label = "macro_smiley";
+#binding-cells = <0>;
+bindings = <&kt LEFT_SHIFT>,
+            <&kt LEFT_CONTROL>,
+            <&kp U>,
+            <&kt LEFT_SHIFT>,
+            <&kt LEFT_CONTROL>,
+            <&kp N1>,
+            <&kp F>,
+            <&kp N6>,
+            <&kp N0>,
+            <&kp N0>,
+            <&kp SPACE>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
